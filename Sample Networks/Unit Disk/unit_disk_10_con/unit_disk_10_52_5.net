@@ -1,0 +1,33 @@
+*Vertices 10
+1 1 0.58371 0.777836 0.5 x_fact 1 y_fact 1 ic Black bc Black
+2 2 0.956845 0.715461 0.5 x_fact 1 y_fact 1 ic Black bc Black
+3 3 0.29396 0.589573 0.5 x_fact 1 y_fact 1 ic Black bc Black
+4 4 0.81649 0.463494 0.5 x_fact 1 y_fact 1 ic Black bc Black
+5 5 0.752772 0.745709 0.5 x_fact 1 y_fact 1 ic Black bc Black
+6 6 0.343359 0.949108 0.5 x_fact 1 y_fact 1 ic Black bc Black
+7 7 0.125716 0.340588 0.5 x_fact 1 y_fact 1 ic Black bc Black
+8 8 0.445961 0.0536127 0.5 x_fact 1 y_fact 1 ic Black bc Black
+9 9 0.54015 0.0388248 0.5 x_fact 1 y_fact 1 ic Black bc Black
+10 10 0.54733 0.972723 0.5 x_fact 1 y_fact 1 ic Black bc Black
+*Edges 
+1 2 1 c Black
+1 3 1 c Black
+1 4 1 c Black
+1 5 1 c Black
+1 6 1 c Black
+1 10 1 c Black
+2 4 1 c Black
+2 5 1 c Black
+2 10 1 c Black
+3 5 1 c Black
+3 6 1 c Black
+3 7 1 c Black
+3 10 1 c Black
+4 5 1 c Black
+4 9 1 c Black
+5 6 1 c Black
+5 10 1 c Black
+6 10 1 c Black
+7 8 1 c Black
+7 9 1 c Black
+8 9 1 c Black
