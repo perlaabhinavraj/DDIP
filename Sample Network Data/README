@@ -1,0 +1,4 @@
+ERGM folder contains all the ERGM networks generated.
+Unit Disk folder contains all the Unit Disk networks generated.
+
+The data in these files provides the edge set for the respective networks.

@@ -5,14 +5,15 @@ Created on Tue Jan  3 20:26:41 2017
 @author: cmdiaz93
 """
 
-#import UAV_network_model as model
-import time 
-import random 
-from Nelder_Mead_Classes_network_new import NelderMeadAlgorithm
-from ergm_sample_set_creator import ergm_samples_dict # set of ergm sample graphs 
-from ergm_sample_set_creator import ergm_file_dict # set of file names for the ergm graphs 
-from reading_networks_2 import dict_of_nets # set of graphs for unit disk samples
-from reading_networks_2 import sample_list_by_node_number # set of file names for ergm graphs  
+import random
+# import UAV_network_model as model
+import time
+
+from code.optimization.Nelder_Mead_Classes_network_new import NelderMeadAlgorithm
+from code.optimization.ergm_sample_set_creator import ergm_file_dict  # set of file names for the ergm graphs
+from code.optimization.reading_networks_2 import sample_list_by_node_number  # set of file names for ergm graphs
+
+
 def avg(xlist):
 	return sum(xlist)/float(len(xlist))
 	

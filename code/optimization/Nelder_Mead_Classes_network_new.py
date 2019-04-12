@@ -4,14 +4,14 @@ Created on Tue Jan  3 18:05:41 2017
 
 @author: cmdiaz93
 """
-import DDIP_Algorithm_Procedure as model
-import time 
-from operator import itemgetter
 import copy
-from ergm_sample_set_creator import ergm_samples_dict # set of ergm sample graphs 
-#from ergm_sample_set_creator import ergm_file_dict # set of file names for the ergm graphs 
-from reading_networks_2 import dict_of_nets # set of graphs for unit disk samples
-from reading_networks_2 import sample_list_by_node_number
+from operator import itemgetter
+
+from code.model import DDIP_Algorithm_Procedure as model
+from code.optimization.ergm_sample_set_creator import ergm_samples_dict  # set of ergm sample graphs
+# from ergm_sample_set_creator import ergm_file_dict # set of file names for the ergm graphs
+from code.optimization.reading_networks_2 import dict_of_nets  # set of graphs for unit disk samples
+
 
 class AlgorithmVertices(object):
 	

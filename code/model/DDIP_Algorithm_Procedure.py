@@ -4,11 +4,14 @@ Created on Sat Jan 14 13:53:26 2017
 
 @author: Chris
 """
-from DDIP_Model_Classes import UAVnet
-from DDIP_Model_Classes import UAV
-from DDIP_Model_Classes import FinalResults
-import random 
 import copy
+import random
+
+from code.model.DDIP_Model_Classes import FinalResults
+from code.model.DDIP_Model_Classes import UAV
+from code.model.DDIP_Model_Classes import UAVnet
+
+
 def runsimulation(xnode_number, xgamma, xscaling_factor,xfeasible_edge_set, xnumber_of_periods, xgraph_name,xseed, xefficiency_scale = 2 ,xedge_number = 0):
 	############################ THIS FIRST SECTION WILL INITIALIZE THE UAV NETWORK GRAPH #############################	
 	#if xnumber_of_periods <= 0 or xmax_outgoing_ties < int(.2*xnode_number)  or xcost_of_ties <= 0 or xmessage_number <= 0: 
@@ -95,5 +98,5 @@ def runsimulation(xnode_number, xgamma, xscaling_factor,xfeasible_edge_set, xnum
 	#List_of_Results.append(FinalResults(xfeasible_edge_set,UAVnetwork.edges(),len(UAVnetwork.nodes()),xcost_of_ties,xnumber_of_periods, xgraph_name, xmax_outgoing_ties))
 	
 	result = FinalResults(xfeasible_edge_set,UAVnetwork.edges(),len(UAVnetwork.nodes()),xnumber_of_periods, xgraph_name,xgamma, xscaling_factor, xefficiency_scale)
+	# result.ReportResults()
 	return [[result.ratio_of_edges, result.average_inverse_distance, 1/result.edge_efficiency,result.edge_number, result.efficiency_scale],result]
-

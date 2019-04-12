@@ -1,0 +1,4 @@
+The code is written in Python 2.
+It is imperative to use Networkx 1.1 package.
+
+Inorder to run the optimization program, run Nelder_Mead_Optimizer_network_new.py file.

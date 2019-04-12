@@ -1,0 +1,5 @@
+model folder contains the code for the DDIP model.
+optimization folder contains the code to run the Optimization on DDIP using Nelder-Mead.
+generating the sample networks folder contains the code generating the sample networks whose data is in the Sample Network Data folder.
+
+

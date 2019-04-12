@@ -1,0 +1,6 @@
+The code is written in Python 2.
+It is imperative to use Networkx 1.1 package.
+
+Inorder to replicate the results of the research, run the main.py file.
+Select the network from the Sample Network Data folder and paste it into the model folder (so that python can find the file.)
+Make the necessary changes in the main.py file i.e. changing the filename, n, etc.
